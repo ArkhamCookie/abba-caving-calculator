@@ -1,6 +1,9 @@
 // Get Buttons
 const calculateBtn = document.getElementById("calculate-btn");
 
+// Get Results Section
+const scoreDisplay = document.getElementById("score-display");
+
 /**
  * Calculate points for an ore
  * @param {number} worth
@@ -89,5 +92,6 @@ function calculatePoints() {
 calculateBtn.addEventListener("click", (_) => {
 	let points = calculatePoints();
 
-	console.log(points);
+	scoreDisplay.classList = [];
+	scoreDisplay.innerText = `You have ${points} points!`;
 });
