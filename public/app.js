@@ -11,18 +11,6 @@ const scoreDisplay = document.getElementById("score-display");
  * @returns {number | null}
  */
 function calculateOrePoints(worth, amount) {
-	worth = Number(worth);
-	amount = Number(amount);
-
-	if (typeof worth === NaN) {
-		console.error("`worth` = " + worth);
-		return null
-	}
-	if (typeof amount === NaN) {
-		console.error("`amount` = " + amount);
-		return null
-	}
-
 	return worth * amount;
 }
 
