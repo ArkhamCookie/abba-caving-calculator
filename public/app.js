@@ -8,7 +8,7 @@ const scoreDisplay = document.getElementById("score-display");
  * Calculate points for an ore
  * @param {number} worth
  * @param {number} amount
- * @returns {number | null}
+ * @returns {number}
  */
 function calculateOrePoints(worth, amount) {
 	return worth * amount;
