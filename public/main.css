@@ -52,16 +52,32 @@ footer {
 .form {
 	width: 90%;
 	padding: 20px;
+	margin: 12px;
 
 	border-width: 2px;
 	border-style: solid;
 	border-color: var(--surface-a30);
 	border-radius: 5px;
+
+	font-size: large;
+}
+
+.form-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.form input {
+	width: 45px;
 }
 
 .form-header {
 	font-size: 25px;
 	padding-bottom: 5px;
+}
+
+.form-input-div {
+	padding: 1px;
 }
 
 /** Score Styling */
