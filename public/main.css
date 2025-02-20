@@ -33,22 +33,10 @@ body {
 	color: var(--light-a0);
 }
 
-.hidden {
-	visibility: hidden;
-}
+/** Main Page Layout/Styling */
 
 header {
 	text-align: center;
-}
-
-.form {
-	width: 90%;
-	padding: 20px;
-
-	border-width: 2px;
-	border-style: solid;
-	border-color: var(--surface-a30);
-	border-radius: 5px;
 }
 
 footer {
@@ -59,4 +47,20 @@ footer {
 	border-top: 1px solid var(--surface-a30);
 	text-align: center;
 	padding: 5px 0px 0px;
+}
+
+/** From Styling */
+.form {
+	width: 90%;
+	padding: 20px;
+
+	border-width: 2px;
+	border-style: solid;
+	border-color: var(--surface-a30);
+	border-radius: 5px;
+}
+
+/** Score Styling */
+.hidden {
+	visibility: hidden;
 }
