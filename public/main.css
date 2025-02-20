@@ -41,6 +41,16 @@ header {
 	text-align: center;
 }
 
+.form {
+	width: 90%;
+	padding: 20px;
+
+	border-width: 2px;
+	border-style: solid;
+	border-color: var(--surface-a30);
+	border-radius: 5px;
+}
+
 footer {
 	position: absolute;
 	bottom: 0;
