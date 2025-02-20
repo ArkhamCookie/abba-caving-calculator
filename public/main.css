@@ -28,12 +28,11 @@
 	--surface-tonal-a50: #8e9092;
 }
 
+/** Main Page Layout/Styling */
 body {
 	background-color: var(--surface-a0);
 	color: var(--light-a0);
 }
-
-/** Main Page Layout/Styling */
 
 header {
 	text-align: center;
