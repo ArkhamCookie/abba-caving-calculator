@@ -1,3 +1,33 @@
+* {
+	/** Base colors */
+	--dark-a0: #000000;
+	--light-a0: #ffffff;
+
+	/** Dark theme primary colors */
+	--primary-a0: #287095;
+	--primary-a10: #467fa0;
+	--primary-a20: #5f8eac;
+	--primary-a30: #779db7;
+	--primary-a40: #8eadc3;
+	--primary-a50: #a4bdcf;
+
+	/** Dark theme surface colors */
+	--surface-a0: #121212;
+	--surface-a10: #282828;
+	--surface-a20: #3f3f3f;
+	--surface-a30: #575757;
+	--surface-a40: #717171;
+	--surface-a50: #8b8b8b;
+
+	/** Dark theme tonal surface colors */
+	--surface-tonal-a0: #171b1e;
+	--surface-tonal-a10: #2c3033;
+	--surface-tonal-a20: #434649;
+	--surface-tonal-a30: #5b5e60;
+	--surface-tonal-a40: #747779;
+	--surface-tonal-a50: #8e9092;
+}
+
 .hidden {
 	visibility: hidden;
 }
@@ -11,7 +41,7 @@ footer {
 	bottom: 0;
 	width: 100%;
 	height: 2.5rem;
-	border-top: 1px solid black;
+	border-top: 1px solid var(--surface-a30);
 	text-align: center;
 	padding: 5px 0px 0px;
 }
