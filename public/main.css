@@ -59,6 +59,11 @@ footer {
 	border-radius: 5px;
 }
 
+.form-header {
+	font-size: 25px;
+	padding-bottom: 5px;
+}
+
 /** Score Styling */
 .hidden {
 	visibility: hidden;
