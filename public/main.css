@@ -28,6 +28,11 @@
 	--surface-tonal-a50: #8e9092;
 }
 
+body {
+	background-color: var(--surface-a0);
+	color: var(--light-a0);
+}
+
 .hidden {
 	visibility: hidden;
 }
