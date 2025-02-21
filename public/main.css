@@ -55,6 +55,7 @@ footer {
 	margin: 12px;
 
 	border: 2px solid var(--surface-a30);
+	border-radius: 8px;
 
 	font-size: large;
 }
