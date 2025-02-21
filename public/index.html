@@ -13,118 +13,150 @@
 
 <body>
 	<header>
-		<nav></nav>
+		<h1>ABBA Caving Calculator</h1>
 	</header>
 
-	<form id="ore-value-form">
-		<fieldset>
-			<legend>Input Ore Value</legend>
+	<form id="ore-value-form" class="calculator-form">
+		<div class="form-container">
+			<legend class="form-header">Input Ore Value:</legend>
 
-			<label>Stone Coal</label>
-			<input type="number" value="0" id="value-coal">
+			<div class="form-input-div">
+				<label>Stone Coal</label>
+				<input type="number" value="0" id="value-coal">
 
-			<label>Deepslate Coal</label>
-			<input type="number" value="2" id="value-coal-deepslate">
+				<label>Deepslate Coal</label>
+				<input type="number" value="2" id="value-coal-deepslate">
+			</div>
 
-			<label>Copper</label>
-			<input type="number" value="0" id="value-copper">
+			<div class="form-input-div">
+				<label>Stone Copper</label>
+				<input type="number" value="0" id="value-copper">
 
-			<label>Deepslate Copper</label>
-			<input type="number" value="0" id="value-copper-deepslate">
+				<label>Deepslate Copper</label>
+				<input type="number" value="0" id="value-copper-deepslate">
+			</div>
 
-			<label>Stone Iron</label>
-			<input type="number" value="1" id="value-iron">
+			<div class="form-input-div">
+				<label>Stone Iron</label>
+				<input type="number" value="1" id="value-iron">
 
-			<label>Deepslate Iron</label>
-			<input type="number" value="1" id="value-iron-deepslate">
+				<label>Deepslate Iron</label>
+				<input type="number" value="1" id="value-iron-deepslate">
+			</div>
 
-			<label>Gold</label>
-			<input type="number" value="3" id="value-gold">
+			<div class="form-input-div">
+				<label>Stone Gold</label>
+				<input type="number" value="3" id="value-gold">
 
-			<label>Deepslate Gold</label>
-			<input type="number" value="3" id="value-gold-deepslate">
+				<label>Deepslate Gold</label>
+				<input type="number" value="3" id="value-gold-deepslate">
+			</div>
 
-			<label>Lapis</label>
-			<input type="number" value="2" id="value-lapis">
+			<div class="form-input-div">
+				<label>Stone Lapis</label>
+				<input type="number" value="2" id="value-lapis">
 
-			<label>Deepslate Lapis</label>
-			<input type="number" value="2" id="value-lapis-deepslate">
+				<label>Deepslate Lapis</label>
+				<input type="number" value="2" id="value-lapis-deepslate">
+			</div>
 
-			<label>Redstone</label>
-			<input type="number" value="1" id="value-redstone">
+			<div class="form-input-div">
+				<label>Stone Redstone</label>
+				<input type="number" value="1" id="value-redstone">
 
-			<label>Deepslate Redstone</label>
-			<input type="number" value="1" id="value-redstone-deepslate">
+				<label>Deepslate Redstone</label>
+				<input type="number" value="1" id="value-redstone-deepslate">
+			</div>
 
-			<label>Diamond</label>
-			<input type="number" value="5" id="value-diamond">
+			<div class="form-input-div">
+				<label>Stone Diamond</label>
+				<input type="number" value="5" id="value-diamond">
 
-			<label>Deepslate Diamond</label>
-			<input type="number" value="5" id="value-diamond-deepslate">
+				<label>Deepslate Diamond</label>
+				<input type="number" value="5" id="value-diamond-deepslate">
+			</div>
 
-			<label>Emerald</label>
-			<input type="number" value="7" id="value-emerald">
+			<div class="form-input-div">
+				<label>Stone Emerald</label>
+				<input type="number" value="7" id="value-emerald">
 
-			<label>Deepslate Emerald</label>
-			<input type="number" value="15" id="value-emerald-deepslate">
-		</fieldset>
+				<label>Deepslate Emerald</label>
+				<input type="number" value="15" id="value-emerald-deepslate">
+			</div>
+		</div>
 	</form>
 
-	<form id="ore-input-form">
-		<fieldset>
-			<legend>Calculate Your Score!</legend>
+	<form id="ore-input-form" class="calculator-form">
+		<legend class="form-header">Calculate Your Score:</legend>
 
+		<div class="form-input-div">
 			<label>Stone Coal</label>
 			<input type="number" value="0" id="input-coal">
 
 			<label>Deepslate Coal</label>
 			<input type="number" value="0" id="input-coal-deepslate">
+		</div>
 
-			<label>Copper</label>
+		<div class="form-input-div">
+			<label>Stone Copper</label>
 			<input type="number" value="0" id="input-copper">
 
 			<label>Deepslate Copper</label>
 			<input type="number" value="0" id="input-copper-deepslate">
+		</div>
 
+		<div class="form-input-div">
 			<label>Stone Iron</label>
 			<input type="number" value="0" id="input-iron">
 
 			<label>Deepslate Iron</label>
 			<input type="number" value="0" id="input-iron-deepslate">
+		</div>
 
-			<label>Gold</label>
+		<div class="form-input-div">
+			<label>Stone Gold</label>
 			<input type="number" value="0" id="input-gold">
 
 			<label>Deepslate Gold</label>
 			<input type="number" value="0" id="input-gold-deepslate">
+		</div>
 
-			<label>Lapis</label>
+		<div class="form-input-div">
+			<label>Stone Lapis</label>
 			<input type="number" value="0" id="input-lapis">
 
 			<label>Deepslate Lapis</label>
 			<input type="number" value="0" id="input-lapis-deepslate">
+		</div>
 
-			<label>Redstone</label>
+		<div class="form-input-div">
+			<label>Stone Redstone</label>
 			<input type="number" value="0" id="input-redstone">
 
 			<label>Deepslate Redstone</label>
 			<input type="number" value="0" id="input-redstone-deepslate">
+		</div>
 
-			<label>Diamond</label>
+		<div class="form-input-div">
+			<label>Stone Diamond</label>
 			<input type="number" value="0" id="input-diamond">
 
 			<label>Deepslate Diamond</label>
 			<input type="number" value="0" id="input-diamond-deepslate">
+		</div>
 
-			<label>Emerald</label>
+		<div class="form-input-div">
+			<label>Stone Emerald</label>
 			<input type="number" value="0" id="input-emerald">
 
 			<label>Deepslate Emerald</label>
 			<input type="number" value="0" id="input-emerald-deepslate">
-		</fieldset>
+		</div>
 	</form>
 
-	<button id="calculate-btn">Calculate</button>
+	<div id="buttons-div">
+		<button id="calculate-btn">Calculate</button>
+	</div>
 
 	<div class="hidden" id="score-display">
 		Your have FOO points!
