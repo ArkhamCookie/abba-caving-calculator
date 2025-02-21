@@ -78,6 +78,13 @@ footer {
 	padding: 1px;
 }
 
+/** Controls Styling */
+#buttons-div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 /** Calcutate Button Styling */
 #calculate-btn {
 	background-color: var(--primary-a10);
