@@ -1,5 +1,6 @@
 // Get Buttons
 const calculateBtn = document.getElementById("calculate-btn");
+const resetBtn = document.getElementById("reset-btn");
 
 // Get Results Section
 const scoreDisplay = document.getElementById("score-display");
@@ -83,3 +84,7 @@ calculateBtn.addEventListener("click", (_) => {
 	scoreDisplay.classList = [];
 	scoreDisplay.innerText = `You have ${points} points!`;
 });
+
+resetBtn.addEventListener("click", (_) => {
+	document.getElementById("ore-input-form").reset();
+})
