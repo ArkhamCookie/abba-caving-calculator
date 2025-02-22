@@ -1,6 +1,7 @@
 # Abba Caving Calculator
 
 [![Deploy static content to Pages](https://github.com/ArkhamCookie/abba-caving-calculator/actions/workflows/static.yml/badge.svg)](https://github.com/ArkhamCookie/abba-caving-calculator/actions/workflows/static.yml)
+
 A calculator for Abba Caving scores with adjustable values for ores.
 
 ## What's Abba Caving?
