@@ -48,7 +48,7 @@ footer {
 	padding: 5px 0px;
 }
 
-/** From Styling */
+/** Form Styling */
 .calculator-form {
 	padding: 20px;
 	margin: 12px;
@@ -82,26 +82,33 @@ footer {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	gap: 10px;
 }
 
 /** Button Styling */
 .btn {
 	border: none;
 	border-radius: 4px;
+	background-color: var(--primary-a10);
+	color: var(--dark-a0);
+}
+.btn {
+	background-color: var(--primary-a20);
+}
+.btn {
+	background-color: var(--primary-a0);
 }
 
 /** Calcutate Button Styling */
 #calculate-btn {
-	background-color: var(--primary-a10);
-	color: var(--dark-a0);
 	font-size: 26px;
 	padding: 16px;
 }
-#calculate-btn:hover {
-	background-color: var(--primary-a20);
-}
-#calculate-btn:active {
-	background-color: var(--primary-a0);
+
+/** Reset Button Styling */
+#reset-btn {
+	font-size: 20px;
+	padding: 10px;
 }
 
 /** Score Styling */
