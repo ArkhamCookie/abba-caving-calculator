@@ -15,4 +15,4 @@ The game gets its name from the song "Winner Takes All" by ABBA, because the ter
 - [Colorffy](https://colorffy.com/) for generating the [base color palette](https://colorffy.com/dark-theme-generator?colors=287095-121212) used.
 
 <!-- Footnotes -->
-[^1]: Source: https://hermitcraft.fandom.com/wiki/ABBA_Caving
+[^1]: Source: <https://hermitcraft.fandom.com/wiki/ABBA_Caving>
